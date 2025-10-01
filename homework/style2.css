@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./2c38970e791c3d4969bf3555e72fe10a.jpg);
+    background-size: cover;
+}
+
+.section .header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.section .header h3{
+    font-size: 24px;
+    color: white;
+}
+
+.section .header button{
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.section .header .links{
+    display: flex;
+    gap: 15px;
+}
+
+.section .header .links a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.login .login_page{
+    width: 600px;
+    height: 325px;
+    background-color: white;
+    display: flex;
+}
+
+.login .login_page .image{
+    width: 300px;
+    height: 325px;
+    background-image: url(./images.jpg);
+    background-size: cover;
+}
+
+.login .login_page .inputs{
+    width: 300px;
+    height: 325px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.login .login_page .inputs .fa-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.login .login_page .inputs h3{
+    text-align: center;
+}
+
+.login .login_page .inputs input{
+    padding: 12px 12px;
+}
+
+.login .login_page .inputs a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.login .login_page .inputs button{
+    padding: 15px 20px;
+    border: none;
+    background-color: aqua;
+}
